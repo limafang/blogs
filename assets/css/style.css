@@ -25,8 +25,8 @@ a { color: inherit; text-decoration: none; }
 .eyebrow { color: var(--accent); font-size: 11px; font-weight: 800; letter-spacing: .15em; line-height: 1.4; text-transform: uppercase; }
 .eyebrow span, .post-card-kicker span { color: var(--accent-soft); padding: 0 7px; }
 .home-intro { min-height: 420px; display: flex; justify-content: space-between; align-items: end; padding: 86px 0 78px; border-bottom: 1px solid var(--line); }
-.intro-copy { max-width: 700px; }
-.intro-copy h1 { margin: 23px 0 20px; font-size: clamp(50px, 7vw, 92px); font-weight: 500; letter-spacing: 0; line-height: 1.04; }
+.intro-copy { max-width: 850px; }
+.intro-copy h1 { margin: 23px 0 20px; font-family: Georgia, "Songti SC", serif; font-size: 53px; font-weight: 500; letter-spacing: 0; line-height: 1.3; }
 h1 em, .simple-page h1 em { color: var(--accent); font-family: Georgia, "Times New Roman", serif; font-weight: 400; }
 .intro-copy p { max-width: 555px; margin: 0; color: var(--muted); font-size: 16px; }
 .intro-aside { display: flex; flex-direction: column; align-items: end; padding-bottom: 9px; color: var(--muted); }
@@ -89,7 +89,7 @@ h1 em, .simple-page h1 em { color: var(--accent); font-family: Georgia, "Times N
   .site-header { height: 72px; }
   .site-nav { gap: 17px; }
   .home-intro { min-height: 0; display: block; padding: 64px 0 55px; }
-  .intro-copy h1 { margin-top: 18px; font-size: 55px; }
+  .intro-copy h1 { margin-top: 18px; font-size: 34px; line-height: 1.35; }
   .intro-copy p { font-size: 15px; }
   .intro-aside { display: none; }
   .section-heading { padding-top: 50px; }

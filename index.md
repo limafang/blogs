@@ -1,14 +1,14 @@
 ---
 layout: default
 title: 首页
-description: "记录论文阅读、研究想法与方法论追问。"
+description: "Limafang 的读书与研究随记。"
 ---
 
 <section class="home-intro">
   <div class="intro-copy">
-    <div class="eyebrow">RESEARCH NOTES · 2026</div>
-    <h1>沿着证据<br><em>思考下去</em></h1>
-    <p>这里记录论文阅读中没有被摘要带走的东西：反直觉的机制、尚未闭合的因果链，以及值得继续追问的问题。</p>
+    <div class="eyebrow">LIMAFANG · 随手记</div>
+    <h1>这世间本就是各人下雪，<br><em>各人有各人的隐晦和皎洁。</em></h1>
+    <p>读书、读论文，顺手记下一些当时想到的东西。</p>
   </div>
   <div class="intro-aside">
     <span class="index-number">02</span>
@@ -42,5 +42,7 @@ description: "记录论文阅读、研究想法与方法论追问。"
 
 <section class="home-note">
   <div class="note-mark">“</div>
-  <p>好的研究笔记，不是把论文再讲一遍，而是把一个值得验证的疑问留下来。</p>
+  <div class="note-content">
+    <p>诸君，且努力向前，须知天日昭昭。</p>
+  </div>
 </section>

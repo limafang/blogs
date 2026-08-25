@@ -1,4 +1,4 @@
-# 沿着证据思考
+# 读到这里
 
 这是一个用 Jekyll 构建的 GitHub Pages 研究博客。文章继续以 `posts/*.md` 维护，推送到 `main` 后由 GitHub Actions 自动构建并发布。
 
