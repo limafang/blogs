@@ -1,0 +1,15 @@
+# Local research material and agent configuration are not part of the public site.
+*.pdf
+MISSION.md
+NOTES.md
+reasonix.toml
+papers/
+learning-records/
+
+# Generated and local tooling files.
+_site/
+.jekyll-cache/
+.sass-cache/
+.bundle/
+vendor/
+.DS_Store

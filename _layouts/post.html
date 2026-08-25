@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="post-page">
+  <header class="post-header">
+    <div class="eyebrow">{{ page.categories | first | default: '文章' }} <span>/</span> {{ page.date | date: "%Y.%m.%d" }}</div>
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p class="post-deck">{{ page.description }}</p>{% endif %}
+    <div class="post-meta">
+      <span>{{ content | number_of_words }} 字</span>
+      {% if page.tags %}<span class="meta-divider">·</span><span>{{ page.tags | join: ' / ' }}</span>{% endif %}
+    </div>
+  </header>
+  <div class="post-layout">
+    <aside class="post-aside">
+      <a class="back-link" href="{{ '/' | relative_url }}">← 所有文章</a>
+      <div class="aside-rule"></div>
+      <span class="aside-label">这篇文章</span>
+      <p>{{ page.description }}</p>
+    </aside>
+    <div class="prose">
+      {{ content }}
+    </div>
+  </div>
+</article>
+<script>
+  window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
